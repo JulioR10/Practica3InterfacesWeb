@@ -81,5 +81,7 @@ export default Planets;
   Estos datos se usan para renderizar la información de cada planeta.
 
   Los botones de "Anterior" y "Siguiente" permiten al usuario navegar entre las páginas de planetas.
-  Cuando se hace clic en uno de estos botones, se llama a la función cambioPagina con el número de la nueva página como argumento. Esta función utiliza el método push del router de Next.js para cambiar la URL a la de la nueva página. Esto a su vez desencadena una nueva llamada a getServerSideProps con la nueva página como parámetro, lo que actualiza los datos de los planetas que se renderizan.
+  Cuando se hace clic en uno de estos botones, se llama a la función cambioPagina con el número de la nueva página como argumento.
+  Esta función utiliza el método push del router de Next.js para cambiar la URL a la de la nueva página.
+  Esto a su vez desencadena una nueva llamada a getServerSideProps con la nueva página como parámetro, lo que actualiza los datos de los planetas que se renderizan.
 */
